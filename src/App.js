@@ -2,7 +2,7 @@ import React,{useEffect, useState} from "react";
 import './App.css';
 const App = () =>{
   const APP_ID = "441c03af";
-  const APP_KEY = "8a5bc81cbc8aedeeb03b59e9032a57a2";
+  const APP_KEY = "7d75e44ebc778bec7b42e03dda65ee70";
 	
   useEffect(() =>{
        getRecipes();
@@ -14,7 +14,7 @@ const App = () =>{
     console.log(data);
   }
 return(
-  <div>
+  <div className="app">
    <form>
     <input className="search-bar" type="text"/>
     <button className="search-button"type="submit">
